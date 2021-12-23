@@ -370,15 +370,57 @@
             </ul>
         </div>
     </footer>
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop " data-modal>
     <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
             <svg class="modal-button-close" width="11px" height="11px">
                 <use href="images/icons.svg#icon-close"></use>
             </svg> 
         </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="#" class="modal-form"> 
+            <div class="modal-for-field">
+            <label for="user-name" class="modal-form-text">Имя</label>
+            <input 
+                type="text" 
+                name="user-name" 
+                class="modal-input" 
+                required 
+                id="user-name"
+                />
+            </div>
+            <div class="modal-for-field">
+            <label for="user-tel" class="modal-form-text">Телефон</label>
+            <input 
+                type="tel" 
+                name="user-tel" 
+                class="modal-input" 
+                required
+                id="user-tel"/>
+            </div>
+            <div class="modal-for-field">   
+            <label for="user-mail" class="modal-form-text">Почта</label>
+                <input 
+                type="email" 
+                name="user-mail" 
+                class="modal-input" 
+                id="user-mail"
+                />
+            </div>
+            <div class="modal-for-field">
+                <label for="user-text" class="modal-form-text">Комментарий</label>
+                <textarea 
+                name="user-text" 
+                id="user-text"
+                class="modal-text"
+                placeholder="Введите текст"
+                ></textarea>
+            </div>
+            
+            <button type="submit">   </button>
+        </form>
     </div>
 </div>   
-<script src="./js/modal.js"></script>
+<!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>
