@@ -228,7 +228,6 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
-    min-width: 1600px;
     margin: 0 auto;
   }
 
@@ -248,6 +247,7 @@ body {
     width: 200px;
     height: 50px;
     border-radius: 4px;
+    border: none;
     color: var(--white-collor);
     background: #2196f3;
   }
@@ -466,6 +466,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  
 }
 .section-portfolio {
   padding-top: 94px;
@@ -483,6 +484,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   padding: 6px 22px;
+  border: none;
   transition: background-color 250ms linear, color 250ms linear ;
 }
 
@@ -690,7 +692,7 @@ line-height: 24px;
   line-height: 1.17;
   color: rgba(33, 33, 33, 1);
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .modal-for-field{
   margin-bottom: 10px;
@@ -738,6 +740,7 @@ line-height: 24px;
   height: 120px;
   padding: 10px;
   resize: none;
+  margin-bottom: 20px;
 }
 .modal-text::placeholder{
   font-size: 12px;
@@ -790,10 +793,13 @@ line-height: 24px;
 }
 .button-online{
   margin-left: 10px;
-
 }
 .sub-box{
   margin-bottom: 30px;
+  padding: 0;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
 }
 .modal-check-text{
   font-size: 14px;
@@ -801,7 +807,8 @@ line-height: 1.7;
 color: #757575;
 letter-spacing: 0.03em;
 display: flex;
- align-items: center;
+align-items: center;
+padding: 0;
 }
 .modal-check{
 display: flex;
